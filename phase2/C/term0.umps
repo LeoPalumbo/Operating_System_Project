@@ -1,0 +1,22 @@
+p1 v(testsem)
+p2 was started
+p2 starts
+p2 v/p pairs successfully
+p2 is OK
+p3 is started
+p3 - WAITCLOCK OK
+p3 - CPU time correctly maintained
+first incarnation of p4 starts
+p5 starts
+p6 starts
+p7 starts
+p4 create a new p4
+p5 - try to cause a pgm trap access some non-existent memory
+second incarnation of p4 starts
+pgmTrapHandler - Access non-existent memory
+p4 termination of the child
+p5 - try to generate a TLB exception
+memory management (tlb) trap - set user mode on
+p5 - try call sys13 in user mode for verify pass up
+High level SYS call from user mode process
+p5 - try to call P in user mode
