@@ -1,0 +1,23 @@
+Initialized Process Control Blocks   
+ allocPcb test OK   
+ Added 10 entries to the free PCB list   
+Testing insertProcQ ...   
+Test insertProcQ: OK. Inserted 10 elements 
+ Testing removeProcQ ...   
+ Test insertProcQ(), removeProcQ() and emptyProcQ(): OK   
+ Test process queues module: OK      
+ Testing process trees...
+Inserting...   
+Inserted 2 children of pcb0  
+Inserted 2 children of pcb7  
+Test: insertChild(), removeChild() and emptyChild() OK   
+Testing process tree module OK      
+Initializing active semaphore list   
+ Test insertBlocked(): test #1 started  
+Test insertBlocked(): test #2 started  
+Test removeBlocked(): test started   
+Test insertBlocked() and removeBlocked() ok   
+Test headBlocked() and outBlocked(): OK   
+ASL module OK   
+So Long and Thanks for All the Fish
+System halted 
